@@ -1,0 +1,96 @@
+{
+  "inputs": {
+    "events": [
+      {
+        "id": "evt_001",
+        "type": "email",
+        "content": "URGENT: Votre compte PayPal a été suspendu. Cliquez ici pour réactiver: http://paypa1-secure.tk/login",
+        "metadata": {
+          "from": "security@paypa1.com",
+          "subject": "Action requise immédiatement"
+        }
+      },
+      {
+        "id": "evt_002",
+        "type": "url",
+        "content": "http://free-iphone-winner.xyz/claim?ref=sms2025",
+        "metadata": {
+          "source": "SMS inconnu"
+        }
+      },
+      {
+        "id": "evt_003",
+        "type": "email",
+        "content": "Bonjour, voici le rapport mensuel demandé en pièce jointe.",
+        "metadata": {
+          "from": "comptabilite@entreprise-legitime.sn",
+          "subject": "Rapport janvier 2025"
+        }
+      },
+      {
+        "id": "evt_004",
+        "type": "log",
+        "content": "Failed login attempt from IP 192.168.1.105 - user: admin - attempt 1/3",
+        "metadata": {
+          "timestamp": "2025-01-10T14:23:45Z"
+        }
+      },
+      {
+        "id": "evt_005",
+        "type": "email",
+        "content": "Vous avez gagné 1.000.000 FCFA! Envoyez vos coordonnées bancaires pour recevoir votre prix.",
+        "metadata": {
+          "from": "loterie-nationale@gmail.com",
+          "subject": "FÉLICITATIONS GAGNANT!"
+        }
+      },
+      {
+        "id": "evt_006",
+        "type": "url",
+        "content": "https://www.google.com/search?q=gaiashield+hackathon",
+        "metadata": {
+          "source": "Navigation utilisateur"
+        }
+      },
+      {
+        "id": "evt_007",
+        "type": "log",
+        "content": "Successful login - user: marie.diop@company.sn from IP 41.82.123.45",
+        "metadata": {
+          "timestamp": "2025-01-10T09:15:22Z"
+        }
+      },
+      {
+        "id": "evt_008",
+        "type": "email",
+        "content": "Mise à jour de sécurité Microsoft: téléchargez le patch depuis ce lien: http://microsft-update.ru/patch.exe",
+        "metadata": {
+          "from": "updates@microsoft-security.com",
+          "subject": "Patch de sécurité critique"
+        }
+      },
+      {
+        "id": "evt_009",
+        "type": "log",
+        "content": "Failed login attempt from IP 185.220.101.33 - user: admin - attempt 15/3",
+        "metadata": {
+          "timestamp": "2025-01-10T14:28:12Z"
+        }
+      },
+      {
+        "id": "evt_010",
+        "type": "url",
+        "content": "https://github.com/gaiashield/hackathon-2025",
+        "metadata": {
+          "source": "Email interne"
+        }
+      }
+    ]
+  },
+  "locale": "fr-TN",
+  "constraints": {
+    "max_recos": 5,
+    "tone": "concise",
+    "cost_mode": "cheap_fast"
+  }
+}

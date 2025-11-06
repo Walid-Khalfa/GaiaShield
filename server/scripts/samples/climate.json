@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "lat": 14.7167,
+    "lon": -17.4677,
+    "horizonDays": 10,
+    "sector": "agri"
+  },
+  "locale": "fr-TN",
+  "constraints": {
+    "max_recos": 5,
+    "tone": "concise",
+    "cost_mode": "cheap_fast"
+  }
+}
