@@ -1,6 +1,19 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, beforeAll } from 'vitest';
 import request from 'supertest';
-import app from '../src/server.js';
+import type { Express } from 'express';
+
+let app: Express;
+
+beforeAll(async () => {
+  // Force demo mode for deterministic tests
+  delete process.env.GOOGLE_API_KEY;
+  delete process.env.OPENWEATHER_API_KEY;
+  process.env.FORCE_DEMO_MODE = 'true';
+  process.env.PORT = '0';
+
+  const serverModule = await import('../src/server.js');
+  app = serverModule.default;
+});
 
 describe('Analyze API E2E Tests', () => {
 
