@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
+    "postbuild": "node scripts/copy-prompts.mjs",
     "start": "node dist/src/server.js",
     "test": "vitest",
     "lint": "eslint src --ext .ts",
