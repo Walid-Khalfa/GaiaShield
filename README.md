@@ -503,3 +503,8 @@ Developed for **GEF2025 Hackathon** - *The AI-Powered Entrepreneur: Protecting t
 ---
 
 **GaiaShield is more than a tool—it's a movement to protect the future of entrepreneurship.**
+
+## 🌐 Liens utiles
+
+- **Application en ligne** : https://gaia-shield.vercel.app/
+- **Vidéo démo Loom** : https://www.loom.com/share/0c4ef07af8bd4206bd93a04c01ebe649
