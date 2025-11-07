@@ -108,7 +108,7 @@ AI-powered security event classification with automated response recommendations
 
 ### 1. Cloner le repository
 ```bash
-git clone https://github.com/votre-org/gaiashield.git
+git clone https://github.com/Walid-Khalfa/gaiashield.git
 cd gaiashield
 ```
 
